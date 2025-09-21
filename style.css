@@ -1,0 +1,56 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.viewport-header {
+  position: fixed;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.photobanner {
+	position: fixed;
+	width: 350px;
+	height: 303px;
+	bottom: 2px;
+	display: flex;
+}
+
+.photobanner img {
+  margin: 0px 5px;
+  box-shadow: 2px 2px 5px #00FF00;
+}
+
+.photobanner {
+  -webkit-animation: bannermove 150s linear infinite;
+	animation: bannermove 150s linear infinite;
+}
+
+@keyframes bannermove {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -4700px;
+  }
+}
+
