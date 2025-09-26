@@ -1,10 +1,10 @@
 video {
   object-fit: cover;
-  width: 115%;
+  width: 117%;
   height: 110%;
   position: fixed;
-  top: 0;
-  left: -150px;
+  top: -50px;
+  left: -160px;
 }
 
 html, body {
